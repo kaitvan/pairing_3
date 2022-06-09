@@ -11,3 +11,9 @@ friends_age.each do |friend_age|
     puts friend_age
   end
 end
+
+friends_age.each do |friend_age|
+  if friend_age < 60
+    puts friend_age
+  end
+end
